@@ -1,7 +1,12 @@
 {
   "name": "vite-project",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
+  "main": "dist/y-component.umd.js",
+  "author": {
+    "name": "yhcj",
+    "email": "287081093@qq.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
