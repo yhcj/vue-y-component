@@ -2,6 +2,7 @@
 src/
 packages/
 public/
+node_modules/
  
 # 忽略指定文件
 vite.config.js

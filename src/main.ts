@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
 import router from './router'
 import App from './App.vue'
-import 'element-plus/dist/index.css'
 const { YUI } = require('../packages/index.js')
+import 'element-plus/dist/index.css'
 
 // element按需引入
 import { components, plugins } from './plugins/element'

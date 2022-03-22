@@ -16,12 +16,16 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 
 本项目仅作为vue组件封装的练习参考
 
-初始化vue项目 vue created demo
+初始化vue项目 npm create vite@latest
 
-安装组件库 npm add y-component
+安装组件库 npm install yhcj-component
 
 全局导入 
-import YUI form 'y-component' 
-import 'y-component/style.css'
+import YUI form 'yhcj-component'
+
+import 'yhcj-component/style.css'
 
 Vue.use(YUI)
+
+组件中直接使用
+<y-button></y-button>
